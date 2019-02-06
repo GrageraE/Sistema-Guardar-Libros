@@ -78,7 +78,7 @@ int crearFichero()
     libros[j] <<" Coleccion: " <<coleccion[j] <<endl;
     j = j+1;
   }
-  if(libros[0].fail()||libros[1].fail()||libros[2].fail()||libros[3]||libros[4].fail())
+  if(libros[0].fail()||libros[1].fail()||libros[2].fail()||libros[3].fail()||libros[4].fail())
   {
     return 1;
   }
